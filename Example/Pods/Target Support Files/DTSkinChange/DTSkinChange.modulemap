@@ -1,0 +1,6 @@
+framework module DTSkinChange {
+  umbrella header "DTSkinChange-umbrella.h"
+
+  export *
+  module * { export * }
+}

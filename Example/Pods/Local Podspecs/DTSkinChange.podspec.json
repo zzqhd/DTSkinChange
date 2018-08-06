@@ -1,0 +1,22 @@
+{
+  "name": "DTSkinChange",
+  "version": "0.1.0",
+  "summary": "A short description of DTSkinChange.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/729020128@qq.com/DTSkinChange",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "729020128@qq.com": "zhuzq@ibuscloud.com"
+  },
+  "source": {
+    "git": "https://github.com/729020128@qq.com/DTSkinChange.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DTSkinChange/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DTSkinChange (0.1.0)
+
+DEPENDENCIES:
+  - DTSkinChange (from `../`)
+
+EXTERNAL SOURCES:
+  DTSkinChange:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DTSkinChange: f4e869b72759517c4300dea71e2cf770d8097d30
+
+PODFILE CHECKSUM: 51b4e13ab3972a9141876459fbcc9c74f2873e82
+
+COCOAPODS: 1.5.3

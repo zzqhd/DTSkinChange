@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F35A35110593949B03C6A8F00E1A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5B6B3BF9166AAA51C69E4800A5977B3C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4AE95F295814752F49CB6978D4901 /* ReplaceMe.m */; };
+		6576A1A3AF1E7C36E01F39A043C6062E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		730CCD699F4DAD96E8006B671F962CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8C399931808998E0AAEACF94CC6069B9 /* Pods-DTSkinChange_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E0AD9931F313E70BB1AE6E8ECDC047 /* Pods-DTSkinChange_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94482D595736FBF3833E10BBBF28F254 /* DTSkinChange-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77C3BF46B8213D5E1EBD073E41AE273 /* DTSkinChange-dummy.m */; };
+		A0AD5AE89390F38E345E164D9F6B3084 /* Pods-DTSkinChange_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280ADE1CD5D51856A31963EDDA178339 /* Pods-DTSkinChange_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B68720D28E48278DD8BC120D7F5C335A /* Pods-DTSkinChange_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6121AA13099ED23261CB8E71005A3 /* Pods-DTSkinChange_Tests-dummy.m */; };
+		E2538C1377D437262719BDEA3F78CC16 /* Pods-DTSkinChange_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D462A0E86F6961737C76D0EE6CA01 /* Pods-DTSkinChange_Example-dummy.m */; };
+		E9860288C6C03B5299ED96E03FE64971 /* DTSkinChange-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEA34398A7AC232C3D4BAB5F35CEC6D /* DTSkinChange-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C6EE3228C141B77D18D09F4DA76CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E593CEF47C567131AE881996F51EECF;
+			remoteInfo = "Pods-DTSkinChange_Example";
+		};
+		A09EC3765A94A3DAB809962B164D126C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D17306E83DADEE6734227C43F162A03;
+			remoteInfo = DTSkinChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FED78DDAC9E5A8D1954CCE7B6E9D87 /* Pods-DTSkinChange_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSkinChange_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B207EC7407CA3C175768EAC4098AC7B /* Pods-DTSkinChange_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSkinChange_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		19A86D6FE5861A51AB9C0D157B90AFF7 /* Pods-DTSkinChange_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTSkinChange_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		280ADE1CD5D51856A31963EDDA178339 /* Pods-DTSkinChange_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTSkinChange_Example-umbrella.h"; sourceTree = "<group>"; };
+		2D68BEBFB75E0C4460469317A7F5CDA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2EBB1CD7CCB376BB8FDAE52687E7403D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CD323068687FECA948277B44D5E62E /* Pods-DTSkinChange_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSkinChange_Example.release.xcconfig"; sourceTree = "<group>"; };
+		447BBA347569B5289E1676813BCAF58B /* Pods-DTSkinChange_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTSkinChange_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4654F6C6E067C40F2FA66765C8B75F91 /* DTSkinChange.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTSkinChange.modulemap; sourceTree = "<group>"; };
+		5A9202EB2C983A529A2D66381AE739FA /* Pods-DTSkinChange_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSkinChange_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5EF096F781D92225CA543DEABE3692D0 /* DTSkinChange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTSkinChange.framework; path = DTSkinChange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6093C8C4C3FD27FD47F52EF6C9EFC191 /* Pods-DTSkinChange_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTSkinChange_Tests.modulemap"; sourceTree = "<group>"; };
+		61E0AD9931F313E70BB1AE6E8ECDC047 /* Pods-DTSkinChange_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTSkinChange_Tests-umbrella.h"; sourceTree = "<group>"; };
+		627C47C3177FF2364FE6704D17E0ABB6 /* Pods_DTSkinChange_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTSkinChange_Example.framework; path = "Pods-DTSkinChange_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DCDF2BACB4275B223D9B55F32E0E645 /* Pods_DTSkinChange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTSkinChange_Tests.framework; path = "Pods-DTSkinChange_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D1BD790640B0B6D7A452123C7D1287 /* Pods-DTSkinChange_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTSkinChange_Example.modulemap"; sourceTree = "<group>"; };
+		7CDB153ABA444C464AE3E1EFA7566D0D /* Pods-DTSkinChange_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSkinChange_Tests-resources.sh"; sourceTree = "<group>"; };
+		93602051FB430195FE80C5D8DFF905DF /* Pods-DTSkinChange_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSkinChange_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E8259AE4FF7B1C3C5CD36C72D1D81E /* Pods-DTSkinChange_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTSkinChange_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98ACD42E62B81AA2272CE66D504FDECD /* Pods-DTSkinChange_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTSkinChange_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9BDCC7C4BB65E7E57BAE007BB017AA17 /* Pods-DTSkinChange_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSkinChange_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C8D462A0E86F6961737C76D0EE6CA01 /* Pods-DTSkinChange_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTSkinChange_Example-dummy.m"; sourceTree = "<group>"; };
+		9EE7336A5B5F7F9C15334D76673714DF /* DTSkinChange-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTSkinChange-prefix.pch"; sourceTree = "<group>"; };
+		B6B7517E0B37938BBE92486DC63623F5 /* Pods-DTSkinChange_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSkinChange_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BDEA34398A7AC232C3D4BAB5F35CEC6D /* DTSkinChange-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTSkinChange-umbrella.h"; sourceTree = "<group>"; };
+		CF504A0C7D72B8B797D9EF219A182045 /* DTSkinChange.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTSkinChange.xcconfig; sourceTree = "<group>"; };
+		CFB4AE95F295814752F49CB6978D4901 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DTSkinChange/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D772EEE30D83254E54642E70077BF581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77C3BF46B8213D5E1EBD073E41AE273 /* DTSkinChange-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTSkinChange-dummy.m"; sourceTree = "<group>"; };
+		D9E6121AA13099ED23261CB8E71005A3 /* Pods-DTSkinChange_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTSkinChange_Tests-dummy.m"; sourceTree = "<group>"; };
+		DA461B423A36167868CDBAF33CB35C6C /* DTSkinChange.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DTSkinChange.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD4A87BAFDFA1665F4A78D92693A3515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F739B07949241BCC2E984F73FC62358A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E3EED202AD01C7151C35117183DB668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730CCD699F4DAD96E8006B671F962CBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F775B54B619EC8FBCBCFBCC737C231D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6576A1A3AF1E7C36E01F39A043C6062E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDBDFF90610693EBC1E3EE30893E062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F35A35110593949B03C6A8F00E1A3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC31F51052031D374ABB93CEC4EE792 /* DTSkinChange */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4AE95F295814752F49CB6978D4901 /* ReplaceMe.m */,
+				E4578ADF01957EA7C0DC05E0143DFF46 /* Pod */,
+				E61CF46652E9AB58095C0A256519785E /* Support Files */,
+			);
+			name = DTSkinChange;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22D324C572D0ACA07760628563AB8A02 /* Pods-DTSkinChange_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F739B07949241BCC2E984F73FC62358A /* Info.plist */,
+				6093C8C4C3FD27FD47F52EF6C9EFC191 /* Pods-DTSkinChange_Tests.modulemap */,
+				19A86D6FE5861A51AB9C0D157B90AFF7 /* Pods-DTSkinChange_Tests-acknowledgements.markdown */,
+				98ACD42E62B81AA2272CE66D504FDECD /* Pods-DTSkinChange_Tests-acknowledgements.plist */,
+				D9E6121AA13099ED23261CB8E71005A3 /* Pods-DTSkinChange_Tests-dummy.m */,
+				5A9202EB2C983A529A2D66381AE739FA /* Pods-DTSkinChange_Tests-frameworks.sh */,
+				7CDB153ABA444C464AE3E1EFA7566D0D /* Pods-DTSkinChange_Tests-resources.sh */,
+				61E0AD9931F313E70BB1AE6E8ECDC047 /* Pods-DTSkinChange_Tests-umbrella.h */,
+				03FED78DDAC9E5A8D1954CCE7B6E9D87 /* Pods-DTSkinChange_Tests.debug.xcconfig */,
+				0B207EC7407CA3C175768EAC4098AC7B /* Pods-DTSkinChange_Tests.release.xcconfig */,
+			);
+			name = "Pods-DTSkinChange_Tests";
+			path = "Target Support Files/Pods-DTSkinChange_Tests";
+			sourceTree = "<group>";
+		};
+		6BEE1613FDF2945581483358A7A64FFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA7CB75BDB2D4B930ADB7268A063DDD6 /* Pods-DTSkinChange_Example */,
+				22D324C572D0ACA07760628563AB8A02 /* Pods-DTSkinChange_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8546AF4242069EC117F62005FC9FC06C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A871C437ED6A82A7B7D4E20EBC2FBE5C /* Products */,
+				6BEE1613FDF2945581483358A7A64FFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8546AF4242069EC117F62005FC9FC06C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DC31F51052031D374ABB93CEC4EE792 /* DTSkinChange */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A871C437ED6A82A7B7D4E20EBC2FBE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF096F781D92225CA543DEABE3692D0 /* DTSkinChange.framework */,
+				627C47C3177FF2364FE6704D17E0ABB6 /* Pods_DTSkinChange_Example.framework */,
+				6DCDF2BACB4275B223D9B55F32E0E645 /* Pods_DTSkinChange_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4578ADF01957EA7C0DC05E0143DFF46 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DA461B423A36167868CDBAF33CB35C6C /* DTSkinChange.podspec */,
+				DD4A87BAFDFA1665F4A78D92693A3515 /* LICENSE */,
+				2D68BEBFB75E0C4460469317A7F5CDA2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E61CF46652E9AB58095C0A256519785E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4654F6C6E067C40F2FA66765C8B75F91 /* DTSkinChange.modulemap */,
+				CF504A0C7D72B8B797D9EF219A182045 /* DTSkinChange.xcconfig */,
+				D77C3BF46B8213D5E1EBD073E41AE273 /* DTSkinChange-dummy.m */,
+				9EE7336A5B5F7F9C15334D76673714DF /* DTSkinChange-prefix.pch */,
+				BDEA34398A7AC232C3D4BAB5F35CEC6D /* DTSkinChange-umbrella.h */,
+				2EBB1CD7CCB376BB8FDAE52687E7403D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTSkinChange";
+			sourceTree = "<group>";
+		};
+		EA7CB75BDB2D4B930ADB7268A063DDD6 /* Pods-DTSkinChange_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D772EEE30D83254E54642E70077BF581 /* Info.plist */,
+				76D1BD790640B0B6D7A452123C7D1287 /* Pods-DTSkinChange_Example.modulemap */,
+				447BBA347569B5289E1676813BCAF58B /* Pods-DTSkinChange_Example-acknowledgements.markdown */,
+				94E8259AE4FF7B1C3C5CD36C72D1D81E /* Pods-DTSkinChange_Example-acknowledgements.plist */,
+				9C8D462A0E86F6961737C76D0EE6CA01 /* Pods-DTSkinChange_Example-dummy.m */,
+				9BDCC7C4BB65E7E57BAE007BB017AA17 /* Pods-DTSkinChange_Example-frameworks.sh */,
+				93602051FB430195FE80C5D8DFF905DF /* Pods-DTSkinChange_Example-resources.sh */,
+				280ADE1CD5D51856A31963EDDA178339 /* Pods-DTSkinChange_Example-umbrella.h */,
+				B6B7517E0B37938BBE92486DC63623F5 /* Pods-DTSkinChange_Example.debug.xcconfig */,
+				36CD323068687FECA948277B44D5E62E /* Pods-DTSkinChange_Example.release.xcconfig */,
+			);
+			name = "Pods-DTSkinChange_Example";
+			path = "Target Support Files/Pods-DTSkinChange_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E8A6873CDF012DC3B8FC8EF1340F95B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AD5AE89390F38E345E164D9F6B3084 /* Pods-DTSkinChange_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54BC585B5BB5976B0DE6C912B937E9BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C399931808998E0AAEACF94CC6069B9 /* Pods-DTSkinChange_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBD23A145503FF73A6A5CC69B4501D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9860288C6C03B5299ED96E03FE64971 /* DTSkinChange-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E593CEF47C567131AE881996F51EECF /* Pods-DTSkinChange_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C9031635A8B2CAACAFBD7FDD11F5E2 /* Build configuration list for PBXNativeTarget "Pods-DTSkinChange_Example" */;
+			buildPhases = (
+				C8F680A2892C3A3E5B063ADED8A1F97C /* Sources */,
+				7F775B54B619EC8FBCBCFBCC737C231D /* Frameworks */,
+				4E8A6873CDF012DC3B8FC8EF1340F95B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51C2DA7AB843F2C231B7A696A11BC1D /* PBXTargetDependency */,
+			);
+			name = "Pods-DTSkinChange_Example";
+			productName = "Pods-DTSkinChange_Example";
+			productReference = 627C47C3177FF2364FE6704D17E0ABB6 /* Pods_DTSkinChange_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D17306E83DADEE6734227C43F162A03 /* DTSkinChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2ABD7025F1752730F7AD59C21DDF15 /* Build configuration list for PBXNativeTarget "DTSkinChange" */;
+			buildPhases = (
+				726C2B16B3B67BB9118EC3291FDDE626 /* Sources */,
+				5E3EED202AD01C7151C35117183DB668 /* Frameworks */,
+				CCBD23A145503FF73A6A5CC69B4501D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTSkinChange;
+			productName = DTSkinChange;
+			productReference = 5EF096F781D92225CA543DEABE3692D0 /* DTSkinChange.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8964B1E326321C3E21AB12F32BB4E847 /* Pods-DTSkinChange_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6486E89A9DB93B3666D268F2520A1A /* Build configuration list for PBXNativeTarget "Pods-DTSkinChange_Tests" */;
+			buildPhases = (
+				2B08A68D6022315669ACAB90CD0EDB88 /* Sources */,
+				7FDBDFF90610693EBC1E3EE30893E062 /* Frameworks */,
+				54BC585B5BB5976B0DE6C912B937E9BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8CD63CE878751E72EB349726C1BB21 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTSkinChange_Tests";
+			productName = "Pods-DTSkinChange_Tests";
+			productReference = 6DCDF2BACB4275B223D9B55F32E0E645 /* Pods_DTSkinChange_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A871C437ED6A82A7B7D4E20EBC2FBE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D17306E83DADEE6734227C43F162A03 /* DTSkinChange */,
+				3E593CEF47C567131AE881996F51EECF /* Pods-DTSkinChange_Example */,
+				8964B1E326321C3E21AB12F32BB4E847 /* Pods-DTSkinChange_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B08A68D6022315669ACAB90CD0EDB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68720D28E48278DD8BC120D7F5C335A /* Pods-DTSkinChange_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726C2B16B3B67BB9118EC3291FDDE626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94482D595736FBF3833E10BBBF28F254 /* DTSkinChange-dummy.m in Sources */,
+				5B6B3BF9166AAA51C69E4800A5977B3C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F680A2892C3A3E5B063ADED8A1F97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2538C1377D437262719BDEA3F78CC16 /* Pods-DTSkinChange_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51C2DA7AB843F2C231B7A696A11BC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTSkinChange;
+			target = 6D17306E83DADEE6734227C43F162A03 /* DTSkinChange */;
+			targetProxy = A09EC3765A94A3DAB809962B164D126C /* PBXContainerItemProxy */;
+		};
+		CA8CD63CE878751E72EB349726C1BB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DTSkinChange_Example";
+			target = 3E593CEF47C567131AE881996F51EECF /* Pods-DTSkinChange_Example */;
+			targetProxy = 32C6EE3228C141B77D18D09F4DA76CB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		146393A6CA6E0F7DA68A795B9827B08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B207EC7407CA3C175768EAC4098AC7B /* Pods-DTSkinChange_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSkinChange_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSkinChange_Tests/Pods-DTSkinChange_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20869BE5EF1FC0127617DDEF795A196C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF504A0C7D72B8B797D9EF219A182045 /* DTSkinChange.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTSkinChange/DTSkinChange-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTSkinChange/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTSkinChange/DTSkinChange.modulemap";
+				PRODUCT_MODULE_NAME = DTSkinChange;
+				PRODUCT_NAME = DTSkinChange;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3008D0F0ACC4BDCA426792DB25C82651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B7517E0B37938BBE92486DC63623F5 /* Pods-DTSkinChange_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSkinChange_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSkinChange_Example/Pods-DTSkinChange_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		325C52338EF7EE6A010154C8CC991F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF504A0C7D72B8B797D9EF219A182045 /* DTSkinChange.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTSkinChange/DTSkinChange-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTSkinChange/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTSkinChange/DTSkinChange.modulemap";
+				PRODUCT_MODULE_NAME = DTSkinChange;
+				PRODUCT_NAME = DTSkinChange;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		535B800E34593A6BBD4A5796511228F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FED78DDAC9E5A8D1954CCE7B6E9D87 /* Pods-DTSkinChange_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSkinChange_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSkinChange_Tests/Pods-DTSkinChange_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E010C35F323BE244C3A7211136F69610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CD323068687FECA948277B44D5E62E /* Pods-DTSkinChange_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSkinChange_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSkinChange_Example/Pods-DTSkinChange_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6486E89A9DB93B3666D268F2520A1A /* Build configuration list for PBXNativeTarget "Pods-DTSkinChange_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535B800E34593A6BBD4A5796511228F1 /* Debug */,
+				146393A6CA6E0F7DA68A795B9827B08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C9031635A8B2CAACAFBD7FDD11F5E2 /* Build configuration list for PBXNativeTarget "Pods-DTSkinChange_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3008D0F0ACC4BDCA426792DB25C82651 /* Debug */,
+				E010C35F323BE244C3A7211136F69610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2ABD7025F1752730F7AD59C21DDF15 /* Build configuration list for PBXNativeTarget "DTSkinChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20869BE5EF1FC0127617DDEF795A196C /* Debug */,
+				325C52338EF7EE6A010154C8CC991F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
