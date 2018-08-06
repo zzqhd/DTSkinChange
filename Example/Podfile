@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DTSkinChange_Example' do
+  pod 'DTSkinChange', :path => '../'
+
+  target 'DTSkinChange_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
