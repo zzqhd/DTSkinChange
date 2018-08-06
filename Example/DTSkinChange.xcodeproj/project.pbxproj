@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7A97E160211847B9004833A0 /* ThemeTypeDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A97E15E211847B8004833A0 /* ThemeTypeDefault.plist */; };
+		7A97E161211847B9004833A0 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A97E15F211847B9004833A0 /* iconfont.ttf */; };
 		7EBDCD1CDB32CDEFD5A1D130 /* Pods_DTSkinChange_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1B9B7362BD92397F938D71 /* Pods_DTSkinChange_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A8B708BF89A1F26B20A5E01D /* Pods_DTSkinChange_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85066BBCD240FB1B2C1590 /* Pods_DTSkinChange_Example.framework */; };
@@ -38,9 +40,9 @@
 
 /* Begin PBXFileReference section */
 		12E189F8A9E4AF23E34484FE /* Pods-DTSkinChange_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSkinChange_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSkinChange_Tests/Pods-DTSkinChange_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		22A76000B35587A3260F5A92 /* DTSkinChange.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DTSkinChange.podspec; path = ../DTSkinChange.podspec; sourceTree = "<group>"; };
+		22A76000B35587A3260F5A92 /* DTSkinChange.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DTSkinChange.podspec; path = ../DTSkinChange.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2421CB8E5996CE9CD79D1AC2 /* Pods-DTSkinChange_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSkinChange_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSkinChange_Tests/Pods-DTSkinChange_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		31B9C62BC18E696904712BBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		31B9C62BC18E696904712BBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4A1B9B7362BD92397F938D71 /* Pods_DTSkinChange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTSkinChange_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DTSkinChange_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTSkinChange_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,8 +63,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A29F437A824ED1327A63F8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A29F437A824ED1327A63F8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A97E15E211847B8004833A0 /* ThemeTypeDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThemeTypeDefault.plist; sourceTree = "<group>"; };
+		7A97E15F211847B9004833A0 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C34AE29043580CBE38FC093 /* Pods-DTSkinChange_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSkinChange_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSkinChange_Example/Pods-DTSkinChange_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B99B613D5E7AD59542DB7FF3 /* Pods-DTSkinChange_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSkinChange_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTSkinChange_Example/Pods-DTSkinChange_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				7A97E15F211847B9004833A0 /* iconfont.ttf */,
+				7A97E15E211847B8004833A0 /* ThemeTypeDefault.plist */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for DTSkinChange */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -278,8 +284,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				7A97E161211847B9004833A0 /* iconfont.ttf in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				7A97E160211847B9004833A0 /* ThemeTypeDefault.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,10 +327,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DTSkinChange_Example/Pods-DTSkinChange_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DTSkinChange/DTSkinChange.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTSkinChange.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,42 +1,41 @@
-#
-# Be sure to run `pod lib lint DTSkinChange.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'DTSkinChange'
   s.version          = '0.1.0'
   s.summary          = 'A short description of DTSkinChange.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/729020128@qq.com/DTSkinChange'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/zzqhd/DTSkinChange.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '729020128@qq.com' => 'zhuzq@ibuscloud.com' }
-  s.source           = { :git => 'https://github.com/729020128@qq.com/DTSkinChange.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/zzqhd/DTSkinChange.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.dependency 'AFNetworking' , '~> 2.1'
 
-  s.source_files = 'DTSkinChange/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DTSkinChange' => ['DTSkinChange/Assets/*.png']
-  # }
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.subspec 'ThemeManager' do |d|
+    d.source_files = 'DTSkinChange/Classes/ThemeManager/*.{h,m}'
+    d.subspec 'RunTimeCategory' do |e|
+        e.source_files = 'DTSkinChange/Classes/ThemeManager/RunTimeCategory/*.{h,m}'
+    end
+  end
+  s.subspec 'IconFont' do |d|
+    d.source_files = 'DTSkinChange/Classes/IconFont/*.{h,m}'
+    end
+  s.subspec 'hexColor' do |d|
+      d.source_files = 'DTSkinChange/Classes/hexColor/*.{h,m}'
+  end
+  s.subspec 'NetWorkHelper' do |d|
+      d.source_files = 'DTSkinChange/Classes/NetWorkHelper/*.{h,m}'
+  end
+
+
+
 end

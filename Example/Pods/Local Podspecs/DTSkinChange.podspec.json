@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of DTSkinChange.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/729020128@qq.com/DTSkinChange",
+  "homepage": "https://github.com/zzqhd/DTSkinChange.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,43 @@
     "729020128@qq.com": "zhuzq@ibuscloud.com"
   },
   "source": {
-    "git": "https://github.com/729020128@qq.com/DTSkinChange.git",
+    "git": "https://github.com/zzqhd/DTSkinChange.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DTSkinChange/Classes/**/*"
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.1"
+    ]
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "subspecs": [
+    {
+      "name": "ThemeManager",
+      "source_files": "DTSkinChange/Classes/ThemeManager/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "RunTimeCategory",
+          "source_files": "DTSkinChange/Classes/ThemeManager/RunTimeCategory/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "IconFont",
+      "source_files": "DTSkinChange/Classes/IconFont/*.{h,m}"
+    },
+    {
+      "name": "hexColor",
+      "source_files": "DTSkinChange/Classes/hexColor/*.{h,m}"
+    },
+    {
+      "name": "NetWorkHelper",
+      "source_files": "DTSkinChange/Classes/NetWorkHelper/*.{h,m}"
+    }
+  ]
 }
